@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>¡Bienvenido a la lista de espera del POS!</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #f9f9f9;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+			}
+			table {
+				border-spacing: 0;
+				border-collapse: collapse;
+			}
+			a {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body style="margin: 0; padding: 0; background-color: #f9f9f9;">
+		<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f9f9f9;">
+			<tr>
+				<td align="center" style="padding: 40px 20px;">
+					<table width="600" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+						<!-- Header with Logo -->
+						<tr>
+							<td align="center" style="padding: 40px 40px 20px 40px;">
+								{{#if logo_url}}
+								<img src="{{logo_url}}" alt="POS System" style="max-width: 120px; height: auto;" />
+								{{/if}}
+							</td>
+						</tr>
+
+						<!-- Title -->
+						<tr>
+							<td align="center" style="padding: 20px 40px; font-size: 28px; font-weight: bold; color: #1a1a1a;">
+								¡Bienvenido a la lista de espera! 🎉
+							</td>
+						</tr>
+
+						<!-- Message -->
+						<tr>
+							<td style="padding: 20px 40px; font-size: 16px; line-height: 1.6; color: #4a4a4a;">
+								Hola {{name}},
+								<br /><br />
+								¡Gracias por unirte a nuestra lista de espera! Estamos emocionados de que quieras ser parte del futuro de la gestión de negocios en Guatemala.
+								<br /><br />
+								<strong style="color: #8b5cf6;">Tu opinión es muy importante para nosotros.</strong> Por eso, queremos conocer mejor tus necesidades y expectativas.
+							</td>
+						</tr>
+
+						<!-- Incentive Box -->
+						<tr>
+							<td style="padding: 0 40px 20px 40px;">
+								<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: linear-gradient(135deg, #f97316 0%, #ef4444 100%); border-radius: 8px; box-shadow: 0 4px 6px rgba(249, 115, 22, 0.3);">
+									<tr>
+										<td style="padding: 24px; text-align: center;">
+											<div style="font-size: 18px; font-weight: bold; color: #ffffff; margin-bottom: 8px;">
+												🔥 Completa la encuesta y obtén
+											</div>
+											<div style="font-size: 32px; font-weight: bold; color: #ffffff;">
+												3 Meses Gratis
+											</div>
+											<div style="font-size: 14px; color: rgba(255,255,255,0.95); margin-top: 8px; font-weight: 600;">
+												Solo para los primeros 20 usuarios
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+						<!-- CTA Button -->
+						<tr>
+							<td align="center" style="padding: 20px 40px;">
+								<a href="{{encuesta_url}}" style="display: inline-block; background-color: #8b5cf6; color: #ffffff; padding: 16px 40px; text-decoration: none; font-size: 18px; font-weight: 600; border-radius: 8px; box-shadow: 0 4px 6px rgba(139, 92, 246, 0.3);">
+									Completar Encuesta Ahora
+								</a>
+							</td>
+						</tr>
+
+						<!-- Additional Info -->
+						<tr>
+							<td style="padding: 20px 40px; font-size: 14px; line-height: 1.5; color: #666;">
+								La encuesta solo toma <strong>menos de 3 minutos</strong> (6 preguntas rápidas) y nos ayudará a crear el producto perfecto para tu negocio.
+								<br /><br />
+								<strong>¿Qué obtienes?</strong>
+								<ul style="margin: 16px 0; padding-left: 20px;">
+									<li style="margin-bottom: 8px;">✅ 3 meses completamente gratis al lanzamiento</li>
+									<li style="margin-bottom: 8px;">✅ Acceso prioritario antes que nadie</li>
+									<li style="margin-bottom: 8px;">✅ Influencia directa en las funcionalidades</li>
+									<li style="margin-bottom: 8px;">✅ Soporte personalizado durante el onboarding</li>
+								</ul>
+							</td>
+						</tr>
+
+						<!-- Footer -->
+						<tr>
+							<td style="padding: 30px 40px 40px 40px; font-size: 13px; color: #999; border-top: 1px solid #e5e5e5;">
+								<p style="margin: 0 0 10px 0;">
+									Si no solicitaste este correo o cambiaste de opinión, puedes ignorarlo de forma segura.
+								</p>
+								<p style="margin: 0; color: #8b5cf6; font-weight: 600;">
+									Gracias por confiar en POS System 💜
+								</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
