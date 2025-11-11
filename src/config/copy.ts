@@ -159,7 +159,7 @@ export const copy = {
 				icon: '🇬🇹',
 				title: 'Diseñado para Guatemala',
 				description:
-					'En quetzales, idioma español, soporte local. Todo pensado para negocios guatemaltecos.'
+					'En quetzales, idioma español, soporte. Todo pensado para negocios guatemaltecos.'
 			},
 			{
 				icon: '🚀',
@@ -169,7 +169,7 @@ export const copy = {
 			},
 			{
 				icon: '🤝',
-				title: 'Soporte local en español',
+				title: 'Soporte en español',
 				description:
 					'Equipo en Guatemala que habla tu idioma y entiende tu negocio.'
 			},

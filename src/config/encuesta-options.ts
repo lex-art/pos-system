@@ -112,7 +112,7 @@ export const encuestaOptions = {
 		{ value: 'precio', label: 'Precio más bajo' },
 		{ value: 'funcionalidades', label: 'Funcionalidades completas' },
 		{ value: 'facil-usar', label: 'Fácil de usar' },
-		{ value: 'soporte-local', label: 'Soporte local en Guatemala' },
+		{ value: 'soporte-local', label: 'Soporte en Guatemala' },
 		{ value: 'multi-sucursal', label: 'Múltiples sucursales' },
 		{ value: 'sin-contrato', label: 'Sin contrato/compromiso a largo plazo' },
 		{ value: 'prueba-gratuita', label: 'Prueba gratuita real' },

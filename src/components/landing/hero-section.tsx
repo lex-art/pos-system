@@ -49,7 +49,7 @@ export function HeroSection() {
 								</div>
 								<div className="flex items-center gap-2">
 									<span className="text-primary">✓</span>
-									<span>Soporte local</span>
+									<span>Soporte</span>
 								</div>
 								<div className="flex items-center gap-2">
 									<span className="text-primary">✓</span>

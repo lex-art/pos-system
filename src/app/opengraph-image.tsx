@@ -112,7 +112,7 @@ export default async function Image() {
 						>
 							<span style={{ fontSize: '28px' }}>✓</span>
 							<span style={{ fontSize: '24px', color: 'white', fontWeight: '500' }}>
-								Soporte Local
+								Soporte
 							</span>
 						</div>
 						<div
